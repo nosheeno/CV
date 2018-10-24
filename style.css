@@ -1,0 +1,55 @@
+body{
+    
+    margin: 0;
+   height: 100px;
+}
+#container{
+    width: 50rem;
+    height: auto;
+    margin: 0px auto;
+    box-shadow: rgb(100, 26, 168);
+
+}
+.name h1{
+    text-align: center;
+}
+.personal-info{
+    position: relative;
+    width: 23rem;
+    height: 11rem;
+    background-color:f7f7f7;
+    position: relative;
+    margin-top: 3rem;
+}
+
+.personal-info h5{
+    position: absolute;
+font: 1em sans-serif;
+font-weight: bold;
+float: left;
+margin: 0px 0px;
+padding: 0px 0px;
+}
+.personal-info span{
+    position: absolute;
+    margin-left: 1rem;
+    float: left;
+    left: 6rem;
+}
+.personal-info img{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    float: left;
+    left: 32rem;
+    margin-top: -7rem
+
+}
+table, th, td{
+    border: 1px solid black;
+    
+}
+.career p{
+    margin-left: 10px;
+    font: 1em sans-serif;
+}
